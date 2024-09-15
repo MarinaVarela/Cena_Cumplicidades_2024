@@ -22,11 +22,6 @@
   <!-- Theme Stylesheets -->
   <link href="assets/style.css" rel="stylesheet">
 
-  <!-- Swiper -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
   <script>(function (global, factory) {
       typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
         typeof define === 'function' && define.amd ? define(['exports'], factory) :
@@ -362,28 +357,67 @@
 
   <!-- Main content -->
   <main>
+
     <!-- Fixo BG Inicial -->
     <section class="py-13 py-lg-15 vh-75" id="content">
-      <div class="bg-primary bg-image bg-cover overlay overlay-primary overlay-70" data-jarallax="" data-speed=".8"
-        style="background-image: none; z-index: 0;"
-        data-jarallax-original-styles="background-image: url(assets/img/1.png);">
+      <div class="bg-primary bg-image bg-cover overlay overlay-primary overlay-70" data-jarallax data-speed=".8"
+        style="background-image: url(assets/img/1.jpeg); z-index: 0;">
+
         <div class="container h-100">
-          <div class="row align-items-center h-100 text-white aos-init aos-animate" data-aos="fade-down">
+          <div class="row align-items-center h-100 text-white" data-aos="fade-down">
             <div class="col position-relative">
-              <p class="small mb-n2 opacity-70">Recife, Pernambuco
+              <p class="small mb-n2 opacity-70">
+                Recife, Pernambuco
                 <br>14 de setembro a 05 de outubro
               </p>
               <h1 class="display-3 mb-5">Festival Cena CumpliCidades</h1>
+              <div class="social-icons mt-4 mb-3 mt-lg-5 pt-lg-2 mx-auto mx-md-0">
+                <a href="https://www.facebook.com/CenaCumplicidades" class="text-reset text-decoration-none"
+                  target="_blank" aria-label="Facebook">
+                  <svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>Facebook</title>
+                    <path
+                      d="M18.14,7.17A.5.5,0,0,0,17.77,7H14V5.59c0-.28.06-.6.51-.6h3a.44.44,0,0,0,.35-.15A.5.5,0,0,0,18,4.5V.5a.5.5,0,0,0-.5-.5H13.17C8.37,0,8,4.1,8,5.35V7H5.5a.5.5,0,0,0-.5.5v4a.5.5,0,0,0,.5.5H8V23.5a.5.5,0,0,0,.5.5h5a.5.5,0,0,0,.5-.5V12h3.35a.5.5,0,0,0,.5-.45l.42-4A.5.5,0,0,0,18.14,7.17Z">
+                    </path>
+                  </svg>
+                </a>
+                <a href="https://www.instagram.com/ccumplicidades/" class="text-white text-decoration-none"
+                  target="_blank" aria-label="Instagram">
+                  <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <title>Instagram</title>
+                    <path fill="#ffffff"
+                      d="M7.75 2C4.15 2 2 4.15 2 7.75V16.25C2 19.85 4.15 22 7.75 22H16.25C19.85 22 22 19.85 22 16.25V7.75C22 4.15 19.85 2 16.25 2H7.75ZM12 17C9.24 17 7 14.76 7 12C7 9.24 9.24 7 12 7C14.76 7 17 9.24 17 12C17 14.76 14.76 17 12 17ZM17.25 8.14C16.5 8.14 15.86 7.5 15.86 6.75C15.86 6 16.5 5.36 17.25 5.36C18 5.36 18.64 6 18.64 6.75C18.64 7.5 18 8.14 17.25 8.14Z">
+                    </path>
+                  </svg>
+                </a>
+                <a href="https://www.youtube.com/c/CenaCumpliCidades" class="text-white text-decoration-none"
+                  target="_blank" aria-label="YouTube">
+                  <svg width="25" height="25" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                    <title>YouTube</title>
+                    <path fill="#ffffff"
+                      d="M23.5,6.3c0-1.7-1.3-3-3-3C18.7,2.9,12,2.9,12,2.9s-6.7,0-8.5,0.4c-1.7,0-3,1.3-3,3C0.1,8.1,0,12,0,12s0.1,3.9,0.5,5.7c0,1.7,1.3,3,3,3C5.3,21.1,12,21.1,12,21.1s6.7,0,8.5-0.4c1.7,0,3-1.3,3-3C23.9,15.9,24,12,24,12S23.9,8.1,23.5,6.3z M9.7,15.5V8.5l6,3.5L9.7,15.5z">
+                    </path>
+                  </svg>
+                </a>
+                <a href="https://www.flickr.com/photos/196539413@N02/albums/" class="text-white text-decoration-none"
+                  target="_blank" aria-label="Flickr">
+                  <svg width="35" height="35" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+                    <title>Flickr</title>
+                    <circle cx="7.5" cy="12" r="4.5" fill="#ffffff"></circle>
+                    <circle cx="16.5" cy="12" r="4.5" fill="#ffffff"></circle>
+                  </svg>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-        <div id="jarallax-container-0" class="jarallax-container"
-          style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; overflow: hidden; z-index: -100; clip-path: polygon(0px 0px, 100% 0px, 100% 100%, 0px 100%);">
+
+        <div class="jarallax-container"
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; overflow: hidden; z-index: -100;">
           <div
-            style="background-position: 80% 0%; background-size: cover; background-repeat: no-repeat; background-image: url(assets/img/1.jpeg); position: absolute; top: 0px; left: 0px; width: 100%; height: 100vh; overflow: hidden; pointer-events: none; transform-style: preserve-3d; backface-visibility: hidden; margin-top: 89.6px; transform: translate3d(0px, -89.6px, 0px);">
+            style="background-image: url(assets/img/1.jpeg); background-position: 80% 0%; background-size: cover; background-repeat: no-repeat; position: absolute; top: 0; left: 0; width: 100%; height: 100vh; pointer-events: none;">
           </div>
         </div>
-      </div>
       </div>
     </section>
 
@@ -409,6 +443,7 @@
       <div class="container">
         <div class="row">
           <div class="col">
+
             <div class="row justify-content-between align-items-baseline">
               <div class="col">
                 <h2 id="programa">Programa</h2>
@@ -553,32 +588,29 @@
           </div>
         </div>
       </div>
-      </div>
-
     </section>
 
     <!-- Numeros 2024 -->
     <section class="py-6 py-lg-7 bg-light">
       <div class="container">
-      </div>
-      <div class="row justify-content-center text-center">
-        <div class="col-md-3">
-          <p class="display-4">2024:</p>
+        <div class="row justify-content-center text-center">
+          <div class="col-md-3">
+            <p class="display-4">2024:</p>
+          </div>
+          <div class="col-md-3">
+            <p class="mb-5 mb-md-0"><span class="display-4" data-countup="" data-to="30"
+                data-options="{&quot;suffix&quot;: &quot;+&quot;, &quot;startVal&quot;: 0}"></span><br><span
+                class="d-block text-muted mt-n1">apresentações</span></p>
+          </div>
+          <div class="col-md-3">
+            <p class="mb-5 mb-md-0"><span class="display-4" data-countup="" data-to="28">0</span><br><span
+                class="d-block text-muted mt-n1">espetáculos</span></p>
+          </div>
+          <div class="col-md-3">
+            <p class="mb-5 mb-md-0"><span class="display-4" data-countup="" data-to="10">0</span><br><span
+                class="d-block text-muted mt-n1">ações de formações</span></p>
+          </div>
         </div>
-        <div class="col-md-3">
-          <p class="mb-5 mb-md-0"><span class="display-4" data-countup="" data-to="30"
-              data-options="{&quot;suffix&quot;: &quot;+&quot;, &quot;startVal&quot;: 1000}">5,000+</span><br><span
-              class="d-block text-muted mt-n1">apresentações</span></p>
-        </div>
-        <div class="col-md-3">
-          <p class="mb-5 mb-md-0"><span class="display-4" data-countup="" data-to="28">0</span><br><span
-              class="d-block text-muted mt-n1">espetáculos</span></p>
-        </div>
-        <div class="col-md-3">
-          <p class="mb-5 mb-md-0"><span class="display-4" data-countup="" data-to="10">0</span><br><span
-              class="d-block text-muted mt-n1">ações de formações</span></p>
-        </div>
-      </div>
       </div>
     </section>
 
@@ -674,22 +706,25 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Explore Mais -->
-    <section class="py-6 py-lg-7">
-      <div class="container">
+    <section class="py-6 py-lg-9">
+      <div class="container mb-3">
         <div class="row">
           <div class="col">
             <h2 id="explore">Explore Mais</h2>
           </div>
         </div>
       </div>
-      <div class="container-fluid px-0">
+
+      <div class="container-fluid ">
         <div class="row">
           <div class="col">
             <div class="swiper container">
-
               <div class="swiper-container overflow-visible swiper-container-initialized swiper-container-horizontal"
                 data-options="{&quot;slidesPerView&quot;: 1, &quot;breakpoints&quot;: {&quot;768&quot;: {&quot;slidesPerView&quot;: 2}, &quot;992&quot;: {&quot;slidesPerView&quot;: 3}}}">
                 <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
@@ -871,7 +906,6 @@
       });
     });
   </script>
-
 </body>
 
 </html>

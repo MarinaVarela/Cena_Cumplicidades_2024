@@ -21301,7 +21301,7 @@ em {
 *,
 :after,
 :before {
-  box-sizing: border-box
+  box-sizing: border-box;
 }
 
 @media (prefers-reduced-motion:no-preference) {
@@ -26620,16 +26620,16 @@ fieldset:disabled .btn {
   --bs-card-border-width: 0;
   --bs-card-border-color: var(--bs-border-color-translucent);
   --bs-card-border-radius: 0;
-  --bs-card-box-shadow: ;
+  /* --bs-card-box-shadow: ; */
   --bs-card-inner-border-radius: 0;
   --bs-card-cap-padding-y: 1rem;
   --bs-card-cap-padding-x: 2rem;
   --bs-card-cap-bg: rgba(0, 0, 0, .03);
   --bs-card-cap-color: ;
-  --bs-card-height: ;
-  --bs-card-color: ;
-  --bs-card-bg: #fff;
-  --bs-card-img-overlay-padding: 1rem;
+  /* --bs-card-height: ; */
+  /* --bs-card-color: ; */
+  /* --bs-card-bg: #fff; */
+  /* --bs-card-img-overlay-padding: 1rem; */
   --bs-card-group-margin: 2rem;
   word-wrap: break-word;
   background-clip: border-box;
@@ -26674,7 +26674,7 @@ fieldset:disabled .btn {
 .card-body {
   color: var(--bs-card-color);
   flex: 1 1 auto;
-  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x)
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
 }
 
 .card-title {
@@ -29998,7 +29998,7 @@ fieldset:disabled .btn {
 }
 
 .shadow {
-  box-shadow: 0 .625rem 1rem rgba(35, 35, 35, .1) !important
+  box-shadow: 0 .625rem 1rem rgba(35, 35, 35, .1) !important;
 }
 
 .shadow-sm {
@@ -42012,7 +42012,7 @@ picture {
 }
 
 :root {
-  --map-marker-color: #232323
+  --map-marker-color: #232323;
 }
 
 .device-iphone {
