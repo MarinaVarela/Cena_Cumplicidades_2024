@@ -26196,10 +26196,6 @@ fieldset:disabled .btn {
   color: var(--bs-navbar-active-color)
 }
 
-.navbar-nav .dropdown-menu {
-  position:
-}
-
 .navbar-text {
   color: var(--bs-navbar-color);
   padding-bottom: .5rem;
@@ -26620,16 +26616,16 @@ fieldset:disabled .btn {
   --bs-card-border-width: 0;
   --bs-card-border-color: var(--bs-border-color-translucent);
   --bs-card-border-radius: 0;
-  /* --bs-card-box-shadow: ; */
+   --bs-card-box-shadow: ; 
   --bs-card-inner-border-radius: 0;
   --bs-card-cap-padding-y: 1rem;
   --bs-card-cap-padding-x: 2rem;
   --bs-card-cap-bg: rgba(0, 0, 0, .03);
   --bs-card-cap-color: ;
-  /* --bs-card-height: ; */
-  /* --bs-card-color: ; */
-  /* --bs-card-bg: #fff; */
-  /* --bs-card-img-overlay-padding: 1rem; */
+  --bs-card-height: ; 
+  --bs-card-color: ; 
+   --bs-card-bg: #fff; 
+   --bs-card-img-overlay-padding: 1rem; 
   --bs-card-group-margin: 2rem;
   word-wrap: break-word;
   background-clip: border-box;
